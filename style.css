@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-family: "Montserrat";
+}
+/***************NAVBAR **************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+/************HEADER**********/
+#header {
+  text-align: center;
+  margin-top: 15rem;
+}
+.header {
+  text-align: left;
+}
+#header img {
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+#header h2,
+p {
+  margin-bottom: 2rem;
+}
+#header h2 {
+  font-size: 3rem;
+}
+/**************GalerySection***********/
+#galery {
+}
+.sectionfirst,
+.sectionsecond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+.sectionsecond {
+  margin-top: 2rem;
+}
+.sectionfirst img {
+  padding: 0.5rem;
+}
+.sectionsecond img {
+  padding: 0.5rem;
+}
+/******************Services**************/
+#services {
+  text-align: center;
+  font-size: 2rem;
+  padding: 5rem 2rem;
+}
+#services ul {
+  list-style-type: none;
+}
+#services ul li {
+  margin-bottom: 1rem;
+}
+/******************Phones**************/
+#phones {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+}
+
+/****************Footer**********/
+#footer {
+  text-align: center;
+  margin-top: 2rem;
+}
